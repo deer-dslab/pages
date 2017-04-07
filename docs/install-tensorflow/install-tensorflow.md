@@ -5,8 +5,10 @@ class: center middle
 class: center middle
 # Precondition
 macOS Sierra  
+Python 3.4
 pyenv  
-Anaconda  
+Anaconda3  
+TensorFlow 1.0.1
 2017/04/07
 
 ---
@@ -35,7 +37,8 @@ $ source activate tensorflow
 ```
 
 ### インストール
-Mac CPU version
+Mac CPU version  
+TensorFlow 1.0.1 for Python 3系
 
 ```shell
 $ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
@@ -66,4 +69,4 @@ Hello, TensorFlow!
 ---
 class: center middle
 # Install Tensorflow おわり
-[Topへ](/)
+[Topへ](..)
